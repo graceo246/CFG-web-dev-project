@@ -1,0 +1,415 @@
+*{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.header{
+  min-height: 700px;
+  background-image: url(images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+
+nav img{
+  width: 180px;
+  float: right;
+  height: 180px;
+  background: #555;
+
+}
+
+.nav-links{
+  overflow: hidden;
+  background-color:#523A28;
+  align-items: center;
+ 
+  
+}
+
+.nav-links a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  
+ 
+
+}
+
+.nav-links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+  
+  .text-box{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    
+  }
+  .text-box h1{
+    font-size:62px
+    
+  }
+  .text-box p{
+    /*margin:10px 0 40px;*/
+    font-size:18px;
+    
+  }
+
+
+.sub-header{
+  height: 50vh;
+  width: 100%;
+  background-image:url(images/heading.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.sub-header{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+
+}
+.About-us{
+  width: 100%;
+  height: 100%;
+  margin:auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #523A28;
+
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.About-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+  
+}
+.About-col img{
+  width: 70%;
+  height: 70%;
+}
+
+.About-col h1{
+  padding: 0;
+  margin: 0;
+  color: tan;
+}
+
+.About-col p{
+  padding: 15px 0 25px;
+  margin: 0;
+
+}
+
+.Favourites{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  background-color:#523A28;
+  justify-content: space-between;
+  
+}
+
+.Favourites-col{
+  
+ 
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.Favourites h1, p, h3{
+  color: #fff;
+}
+.Favourites-col img{
+  width: 100%;
+  height: 100%;
+  
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #b7b2b2;
+}
+.footer h4{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: black;
+
+}
+.footer p{
+  color: black;
+}
+
+
+.sub-head{
+  height: 50vh;
+  width: 100%;
+  background-image:url(images/vecteezy_contact-us-concept-wooden-blocks-with-email-mail-and-telephone-icons_1263984.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.sub-head{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+
+}
+
+.grounds, .espresso {
+  color: brown;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold; /* Use "bold" for font-weight instead of "3px" */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1001; /* Ensure the title appears above the navbar */
+  margin-top: 90px;
+  text-decoration: underline;
+  
+}
+
+/* Existing CSS styles... */
+
+
+
+
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px; /* Adjust the margin as needed */
+  margin-left: 70px;
+  background-color: tan;
+}
+.menu-item {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+
+
+
+.menu-item img {
+  width: 80%;
+  height: auto;
+}
+
+/* First row */
+.menu-item:nth-child(1) {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.menu-item:nth-child(2) {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.menu-item:nth-child(3) {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+}
+
+/* Second row */
+.menu-item:nth-child(4) {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+.menu-item:nth-child(5) {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.menu-item:nth-child(6) {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+
+
+
+.rating .fa{
+  color: rgb(108, 13, 13);
+}
+
+.menu-item:hover{
+  transform: translateY(-5px);
+}
+
+.contact-us{
+width: 80%;
+margin: auto;
+}
+
+.contact-col{
+  flex-basis: 48%;
+  margin-bottom: 30px;
+
+}
+
+.contact-col div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-col input, .contact-col textarea{
+  width:100% ;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 70px;
+  }
+  
+  .menu-item {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .menu-item :hover{
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  .menu-item img {
+    width: 80%;
+    height: auto;
+  }
+  
+  /* First row */
+  .menu-item:nth-child(1) {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+  
+  .menu-item:nth-child(2) {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+  
+  .menu-item:nth-child(3) {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+  }
+  
+  /* Second row */
+  .menu-item:nth-child(4) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+  
+  .menu-item:nth-child(5) {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+  
+  .menu-item:nth-child(6) {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+  }
+  
+  .grounds{
+    color: brown;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 3px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: underline; /* added text-decoration property */
+    text-underline-offset: 15px;
+    
+  }
+
+  .espresso{
+    color: brown;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: underline; /* added text-decoration property */
+    text-underline-offset: 15px;
+  }
+
+
+
+  .head{
+    height: 50vh;
+    width: 100%;
+    background-image:url(images/vecteezy_contact-us-concept-wooden-blocks-with-email-mail-and-telephone-icons_1263984.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+  .head{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  
+  }
